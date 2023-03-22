@@ -1,0 +1,41 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 700px;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.container {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+}
+
+h2 {
+  padding: 0 0 16px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  background-color: #6200EE;
+  margin: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #6E14EF;
+}
